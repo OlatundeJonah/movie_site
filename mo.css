@@ -1,0 +1,198 @@
+@media screen and (max-width: 767px) {
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-image: linear-gradient(transparent, grey), url('bg.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    header{
+        width: 98%;
+        padding: 0.5px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+    header section strong{
+        color: rgb(232, 249, 255);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    header nav ul{
+      list-style: none;
+      display: flex;
+    }
+    header nav ul li a{
+       padding: 0 5px;
+       text-decoration: none;
+       color: white;       
+       font-size: 0.8rem;
+    }
+    header nav ul li a:hover{
+        padding: 0 5px;
+        text-decoration: none;
+        color:   rgb(165, 219, 250);      
+        font-size: 0.8rem;
+     }
+    header section input{
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        border-color: rgb(243, 194, 101);
+        outline: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    header section input:hover{
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        border-color: orange;
+        outline: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    article{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-image: linear-gradient(transparent, grey), url('bg.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    header{
+        width: 98%;
+        padding: 2px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    header section strong{
+        color: rgb(232, 249, 255);
+        font-size: 1.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    header nav ul{
+      list-style: none;
+      display: flex;
+    }
+    header nav ul li a{
+       padding: 0 10px;
+       text-decoration: none;
+       color: white;
+       font-size: 1.3rem;
+    }
+    header nav ul li a:hover{
+        padding: 0 10px;
+        text-decoration: none;
+        color:  rgb(165, 219, 250);
+        font-size: 1.3rem;  
+     }
+    header section input{
+        border-color: rgb(243, 194, 101);
+        outline: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        width: 176px;
+        font-size: 1rem;
+    }
+    header section input{
+        border-color: orange;
+        outline: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        width: 176px;
+        font-size: 1rem;
+    }
+    article{
+        padding-top: 70px;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-image: linear-gradient(transparent, grey), url('bg.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    header{
+        width: 98%;
+        padding: 2px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    header section strong{
+        color: rgb(232, 249, 255);
+        font-size: 1.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    header nav ul{
+      list-style: none;
+      display: flex;
+    }
+    header nav ul li a{
+       padding: 0 10px;
+       text-decoration: none;
+       color: white;
+       font-size: 1.3rem;
+    }
+    header nav ul li a:hover{
+        padding: 0 10px;
+        text-decoration: none;
+        color: rgb(165, 219, 250);
+        font-size: 1.3rem;
+     }
+    header section input{
+        border-color: rgb(243, 194, 101);
+        outline: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        width: 176px;
+        font-size: 1rem;
+    }
+    header section input:hover{
+        border-color: orange;
+        outline: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        width: 176px;
+        font-size: 1rem;
+    }
+    article{
+        padding-top: 70px;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+}
